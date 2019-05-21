@@ -23,14 +23,14 @@ public class MainActivity extends AppCompatActivity {
         c346.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ModuleDetailActivity.class).putExtra("Desc", "Module Code: C346 \nModule Name: Android Programming \nAcademic Year: 2018 \nSemester: 1 \nModule Credit: 4 \nVenue: W66M"));
+                startActivity(new Intent(MainActivity.this, ModuleDetailActivity.class).putExtra("Desc", "Module Code: C346 \nModule Name: Android Programming \nAcademic Year: 2018 \nSemester: 1 \nModule Credit: 4 \nVenue: W66M").addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION));
             }
         });
 
         c349.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, ModuleDetailActivity.class).putExtra("Desc", "Module Code: C349 \nModule Name: iPad Programming \nAcademic Year: 2018 \nSemester: 2 \nModule Credit: 4 \nVenue: W66E"));
+                startActivity(new Intent(MainActivity.this, ModuleDetailActivity.class).putExtra("Desc", "Module Code: C349 \nModule Name: iPad Programming \nAcademic Year: 2018 \nSemester: 2 \nModule Credit: 4 \nVenue: W66E").addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION));
             }
         });
     }

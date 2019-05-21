@@ -29,7 +29,7 @@ public class ModuleDetailActivity extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ModuleDetailActivity.this, MainActivity.class));
+                finish();
             }
         });
 
